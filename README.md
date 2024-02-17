@@ -17,7 +17,7 @@
 
 ## Instalar App 📱
 
-**Link del APK:** [https://drive.google.com/file/d/1iWokSY96HPf9MzhbE5iboXg9nLQyx-b4/view?usp=sharing](https://drive.google.com/file/d/1iWokSY96HPf9MzhbE5iboXg9nLQyx-b4/view?usp=sharing) 
+**Link del APK:**  [https://drive.google.com/file/d/1WOID9VU9vFmVkXMD2c9am8P-c1Rz2BG8/view?usp=sharing](https://drive.google.com/file/d/1WOID9VU9vFmVkXMD2c9am8P-c1Rz2BG8/view?usp=sharing)
 
 ## Autores ✒️
 
