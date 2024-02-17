@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_names">
+        <item>Seleccione un país</item>
+        <item id="504">Honduras</item>
+        <item id="502">Guatelama</item>
+        <item id="503">El Salvador</item>
+        <item id="505">Nicaragua</item>
+        <item id="506">Costa Rica</item>
+    </string-array>
+</resources>

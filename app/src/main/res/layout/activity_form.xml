@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:padding="6dp">
+
+        <RelativeLayout
+            android:id="@+id/lyt_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <RelativeLayout
+                        android:id="@+id/lyt_img_profile"
+                        android:layout_width="144dp"
+                        android:layout_height="144dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:cardUseCompatPadding="false"
+                            card_view:cardCornerRadius="@dimen/circular_corner_radius"
+                            card_view:cardPreventCornerOverlap="false">
+
+                            <RelativeLayout
+                                android:layout_width="144dp"
+                                android:layout_height="144dp">
+
+                                <ImageView
+                                    android:id="@+id/avatar"
+                                    android:layout_width="144dp"
+                                    android:layout_height="144dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_user_account" />
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/btn_change_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:contentDescription="@string/img_content_description"
+                            android:src="@drawable/ic_camera_white"
+                            app:backgroundTint="@color/colorPrimary"
+                            app:rippleColor="@color/colorRipple"
+                            app:tint="@color/colorWhite" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="25dp" />
+
+                    <Spinner
+                        android:id="@+id/ComboPais"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="5dp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding_large">
+
+                        <EditText
+                            android:id="@+id/txtNombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_edt_name"
+                            android:drawablePadding="12dp"
+                            android:ems="10"
+                            android:hint="@string/hint_nombres"
+                            android:inputType="text"
+                            android:labelFor="@+id/viewNombre" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp">
+
+                        <EditText
+                            android:id="@+id/txtTelefono"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/phone2"
+                            android:drawablePadding="12dp"
+                            android:ems="10"
+                            android:inputType="phone"
+                            android:labelFor="@+id/viewTelefono"
+                            android:hint="@string/hint_telefono" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/spacing_middle"
+                        android:text="Comentario/Observación"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/grey_60"
+                        android:textSize="18sp"
+                        android:layout_marginTop="15dp"
+                        app:fontFamily="sans-serif-medium" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/txt_area_dark_yellow"
+                        android:padding="@dimen/spacing_large"
+                        android:textColorHint="@color/grey_40">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:id="@+id/txtNota"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:gravity="top"
+                            android:inputType="textMultiLine"
+                            android:maxLines="10"
+                            android:minLines="6"
+                            android:textColor="@android:color/black"
+                            android:theme="@style/EditText.Green"
+                            app:boxBackgroundColor="@color/green_400" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnGuarda"
+                        style="@style/MaterialButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/btn_editar" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
