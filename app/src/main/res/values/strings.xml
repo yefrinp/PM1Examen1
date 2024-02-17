@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">PM1Examen1</string>
+    <string name="Nombre">Ingrese su nombre</string>
+    <string name="Numero">Ingrese su celular</string>
+    <string name="nota">Escriba detalles del contacto</string>
 </resources>
