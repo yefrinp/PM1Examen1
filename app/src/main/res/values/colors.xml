@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorToolbarDark">#222D36</color>
+    <color name="colorBackgroundDark">#101d25</color>
+
+    <color name="grey_60">#666666</color>
+    <color name="grey_40">#999999</color>
+    <color name="light_green_500">#8BC34A</color>
+    <color name="green_400">#66BB6A</color>
+    <color name="green_500">#4CAF50</color>
+
+    <color name="amber_500">#FFC107</color>
+    <color name="verde">#2b9f2b</color>
+    <color name="rojo">#FF0000</color>
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_100">#C8E6C9</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="colorRipple">#636363</color>
+    <color name="colorWhite">#FFFFFF</color>
+</resources>

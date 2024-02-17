@@ -1,4 +1,4 @@
-# Programacion Movil 1 / Examen1 📱
+# Programacion Movil 1 / Examen 1 📱
 
 <br />
 <p align="center">
