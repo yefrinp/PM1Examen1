@@ -26,7 +26,7 @@ Gracias a estas maravillosas personas ✅ :
 <table>
   <tr>
     <td align="center"><a href="https://github.com/yefrinp"><img src="https://avatars.githubusercontent.com/u/37988731?v=4" width="100px;" alt=""/><br /><sub><b>Yefrin Pacheco</b></sub></a><br /><a href="#" title="Cuenta UTH">201710010063</a><br /><a href="https://github.com/yefrinp" title="Code">💻</a></td>		
-		<td align="center"><a href="https://github.com/Isma201451"><img src="https://avatars.githubusercontent.com/u/128327746?v=4" width="100px;" alt=""/><br /><sub><b>Ismael Mayorga</b></sub></a><br /><a href="#" title="Cuenta UTH">201710010063</a><br /><a href="https://github.com/Isma201451" title="Code">💻</a></td>
+		<td align="center"><a href="https://github.com/Isma201451"><img src="https://avatars.githubusercontent.com/u/128327746?v=4" width="100px;" alt=""/><br /><sub><b>Ismael Mayorga</b></sub></a><br /><a href="#" title="Cuenta UTH">202030070024</a><br /><a href="https://github.com/Isma201451" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Damarislara10"><img src="https://avatars.githubusercontent.com/u/156867187?v=4" width="100px;" alt=""/><br /><sub><b>Damaris Muñoz </b></sub></a><br /><a href="#" title="Cuenta UTH">202110050094</a><br /><a href="https://github.com/Damarislara10" title="Code">💻</a></td>
 </table>
 
